@@ -1,0 +1,44 @@
+.product_container {
+  display: flex;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.radioButtonContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Ajusta el margen según tus preferencias */
+}
+
+.radioButtonContainer label {
+  font-size: 1.2rem;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0; /* Elimina los bordes redondeados */
+  width: 16px; /* Ajusta el tamaño según tus preferencias */
+  height: 16px; /* Ajusta el tamaño según tus preferencias */
+  border: 1px solid #333; /* Ajusta el color del borde según tus preferencias */
+  outline: none;
+  margin-right: 5px; /* Ajusta el margen derecho según tus preferencias */
+}
+
+input[type="radio"]:checked {
+  background-color: #333; /* Ajusta el color de fondo cuando está seleccionado */
+}
+
+.section_products {
+  width: 100%;
+  padding: 4rem;
+}
+
+.container_card {
+  padding: 2rem 0;
+}

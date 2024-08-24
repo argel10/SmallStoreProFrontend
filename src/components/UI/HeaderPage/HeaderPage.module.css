@@ -1,0 +1,30 @@
+.header_post {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4vh;
+  align-items: center;
+}
+
+.submenu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .container_header_page {
+    display: flex;
+    flex-direction: column;
+  }
+  .header_post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .submenu {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

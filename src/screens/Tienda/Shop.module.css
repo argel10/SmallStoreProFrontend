@@ -1,0 +1,145 @@
+.container {
+  display: flex;
+}
+
+.nav {
+  background: #040d12;
+  backdrop-filter: blur(10px);
+  flex-grow: 1; /* Hace que .nav crezca para ocupar todo el espacio disponible en altura */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+}
+
+.img_nav {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
+
+.img_nav img {
+  height: 8rem;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.categories h3 {
+  color: #fff;
+}
+
+.radioButtonContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radioButtonContainer label {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.banner img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.container_card {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(20rem, 1fr)
+  ); /* Crea columnas de al menos 300px de ancho */
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.section_home {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 10rem;
+  margin: 4rem 4rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card_hor {
+  padding: 2rem;
+  border-radius: 0.4rem;
+}
+
+.item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.border_icon {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
+
+.border_icon i {
+  color: blue;
+}
+
+.info_a p {
+  font-size: 1.4rem;
+}
+
+.link {
+  font-size: 1.2rem;
+  color: blue;
+  background-color: transparent;
+}
+
+.cart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart button {
+  background-color: #005b41;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.cart button i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.cart span {
+  position: absolute;
+  bottom: 0;
+  background-color: #F39F5A;
+  height: 2rem;
+  width: 2rem;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .4rem;
+}
+
+
